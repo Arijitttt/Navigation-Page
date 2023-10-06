@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 226, 226);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+body{
+    width: 100%;
+}
+.navigation-home{
+    display: flex;
+}
+.left{
+    flex: 1;
+}
+.middle{
+    flex: 5;
+}
+.right{
+    flex: 1;
+}
+.color{
+    display: flex;
+    
+    
+}
+.red{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    margin-top: 2.2vw;
+    margin-left: 2.2vw;
+    border-radius: 50%;
+    padding: 1.8px;
+}
+.yellow{
+    background-color: yellow;
+    width: 10px;
+    height: 10px;
+    margin-top: 2.2vw;
+    margin-left: 2.2vw;
+    border-radius: 50%;
+    padding: 1.8px;
+}
+.green{
+    background-color: green;
+    padding: 1.8px;
+    width: 10px;
+    height: 10px;
+    margin-top: 2.2vw;
+    margin-left: 2.2vw;
+    border-radius: 50%;
+}
+.straightLine{
+    margin-top: 2.2vw;
+    width: 80px;
+    margin-left: 40%;
+}
+.line1{
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+.detailsWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    
+    margin-top: 2.2vw;
+}
+.contact h3{
+    letter-spacing: -0.8px;
+    font-weight: 800;
+} 
+.details{
+    margin-top: 10vh;
+}
+.details h2{
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+.details h1{
+    margin-top: 2vh;
+    font-size: 4rem;
+    font-weight: 900;
+    overflow: auto;
+    letter-spacing: 8px;
+}
+.get-started{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.get-started img{
+    width: 110px;
+    background-color: transparent;
+    height: 110px;
+    position: relative;
+    top: -44px;
+    right: 330px;
+}
+.navigateImg{
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+}
+.navigateImg img{
+    width: fit-content;
+    height: 280px;
+    margin-top: -3vh;
+    margin-left: 15vw;
+    border-radius: 3px;
+}
+.find{
+    margin-top: 50vh;
+    margin-right: 10vw;
+    
+}
+.findWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 17vw;
+    height: 30vh;
+    position: relative;
+    left: -10px;
+}
+.findWrapper h3{
+    background-color: transparent;
+}
+.input{
+    background-color: rgb(236, 226, 226);
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    margin: 5px;
+}
+.findWrapper button{
+    width: 170px;
+    margin-top: 20px;
+    height: 33px;
+    border-radius: 10px;
+    background-color: rgb(50, 50, 255);
+    color: #fff;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content:  space-around;
+    margin-left: 25%;
+    margin-top: -35%;
+}
+.driving{
+    display: flex;
+}
+.satisfaction{
+    display: flex;
+}
+.violet{
+    background-color: violet;
+    height: 21vh;
+    width: 10px;
+}
+.lorem{
+    width: 10vw;
+    margin-left: 5px;
+}
